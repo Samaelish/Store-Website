@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BFG Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">BFG* Store</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Главная</a></li>
+            <li><a href="#about" onclick="toggleMenu();">О нас</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Услуги</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Наши проекты</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Контакты</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Вас приветствует <br><span>BFG*</span></h2>
+            <h3>Магазин страйкбольного оборудования</h3>
+            <a href="#about" class="btn">наш магазин</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>О нас</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>We are a Gun Store</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, perspiciatis! Omnis molestias
+                    praesentium vitae. Suscipit voluptatem ducimus culpa repellat vitae? Excepturi ut suscipit
+                    perferendis obcaecati corporis laborum assumenda omnis quae, vitae dignissimos autem adipisci
+                    aliquid?<br><br>Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Pariatur sit corporis incidunt repellendus laboriosam placeat nobis saepe et, repellat quos?
+                </p>
+            </div>
+            <div class="contentBx w50">
+                <img src="img1.jpg" class="img">
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Наши Услуги</h2>
+            <p>Основная деятельность</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="Icon1.svg">
+                <h2>Ремонт пистолетов</h2>
+                <p>Производим ремонт пистолетов практически любой сложности</p>
+            </div>
+            <div class="servicesBx">
+                <img src="img/Icon2.svg">
+                <h2>Ремонт AEG</h2>
+                <p>Ремонт электропневматических приводов всех видов</p>
+            </div>
+            <div class="servicesBx">
+                <img src="img/Icon3.svg">
+                <h2>Ремонт ВВД</h2>
+                <p>Установка, настройка и ремонт большинства ВВД систем</p>
+            </div>
+            <div class="servicesBx">
+                <img src="icon4.svg">
+                <h2>Ремонт GBB</h2>
+                <p>Настройка, доводка и ремонт газовых приводов</p>
+            </div>
+            <div class="servicesBx">
+                <img src="Icon5.svg">
+                <h2>Заказы с RedWolf Airsoft</h2>
+                <p>Доставляем всё из магазина RedWolf Airsoft по 100-процентной предоплате</p>
+            </div>
+            <div class="servicesBx">
+                <img src="img/Icon6.svg">
+                <h2>Комиссионка</h2>
+                <p>Принимаем на комиссию, помогаем оценить и продаем ваши привода и пистолеты</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>Наши проекты</h2>
+            <p>Кастомные проекты собранные нашими мастерами.</p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <img src="img/works/gun1.jpg">
+            </div>
+            <div class="workBx">
+                <img src="img/works/gun2.jpg">
+            </div>
+            <div class="workBx">
+                <img src="img/works/gun3.jpg">
+            </div>
+            <div class="workBx">
+                <img src="img/works/gun4.jpg">
+            </div>
+        </div>
+        <div class="heading">
+            <a href="#" class="btn">View More</a>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Контакты</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Контактные данные</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Адрес</h3>
+                            <p>Ананьевский переулок 5, строение 3 <br>Город Москва <br> 107045</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Телефон</h3>
+                            <p>+7-495-660-73-66</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="far fa-envelope"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Электронная почта</h3>
+                            <p>bfgstore@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mapBx">
+                <div style="position:relative;overflow:hidden;"><a
+                        href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps"
+                        style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a
+                        href="https://yandex.ru/maps/213/moscow/house/ananyevskiy_pereulok_5s3/Z04YcARmTE0GQFtvfXt2cH9nYw==/?from=api-maps&ll=37.636580%2C55.771348&origin=jsapi_2_1_74&utm_medium=mapframe&utm_source=maps&z=17.09"
+                        style="color:#eee;font-size:12px;position:absolute;top:14px;">Ананьевский переулок, 5с3 —
+                        Яндекс.Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUE54rXsA" width="560"
+                        height="400" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe></div>
+            </div>
+    </section>
+
+
+    <footer class="footer">
+        <a href="mailto:bfgstore@gmail.com" class="footer__link">bfgstore@gmail.com</a>
+        <ul class="social-list">
+            <!-- BFG Instagram -->
+            <li class="social-list__item">
+                <a class="social-list__link" target="_blank" href="https://www.instagram.com/the_bfg_store/">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <!-- BFG Vkontakte -->
+            <li class="social-list__item">
+                <a class="social-list__link" target="_blank" href="https://vk.com/bfg_pawn_guns">
+                    <i class="fab fa-vk"></i>
+                </a>
+            </li>
+            <!-- BFG smth else -->
+            <li class="social-list__item">
+                <a class="social-list__link" target="_blank" href="https://github.com/Samaelish">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
