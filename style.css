@@ -43,7 +43,7 @@ section
 .btn
 {
     position: relative;
-    background: #2196f3;
+    background: #da3731;
     display: inline-block;
     color: #ffffff;
     margin-top: 20px;
@@ -53,6 +53,11 @@ section
     text-decoration: none;
     letter-spacing: 2px;
     font-weight: 500;
+    border-radius: 24px;
+}
+.btn:hover
+{
+    background-color: #ab3534;
 }
 header
 {
@@ -70,7 +75,7 @@ header
 }
 header.sticky
 {
-    background: #ffffff;
+    background: #da3731;
     padding: 20px 100px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
@@ -104,6 +109,9 @@ header ul li a
     margin: 0 15px;
     color: #ffffff;
     text-decoration: none;
+}
+header ul li a:hover {
+    color: #da3731;
 }
 header.sticky ul li a
 {
@@ -170,7 +178,7 @@ img
 }
 .services .content .servicesBx:hover
 {
-    background: #2196f3;
+    background: #da3731;
 }
 .services .content .servicesBx img
 {
@@ -248,7 +256,7 @@ img
 .contactInfoBx .box .text h3
 {
     font-weight: 500;
-    color: #2196f3;
+    color: #da3731;
     margin-bottom: 0;
 }
 .copyright
@@ -392,7 +400,7 @@ img
 
 .footer {
     background: #000;
-    color: #2196f3;
+    color: #da3731;
     text-align: center;
     padding: 1em 0;
     font-size: 1.25rem;
