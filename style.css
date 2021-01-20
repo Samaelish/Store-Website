@@ -109,6 +109,7 @@ header ul li a
     margin: 0 15px;
     color: #ffffff;
     text-decoration: none;
+    transition: 0.3s;
 }
 header ul li a:hover {
     color: #da3731;
@@ -202,6 +203,35 @@ header.sticky ul li a
     padding: 20px;
 }
 .work .content .workBx img
+{
+    max-width: 100%;
+}
+.goods
+{
+    background: #222222;
+}
+.goods .heading h2,
+.goods .heading p
+{
+    color: #ffffff;
+}
+.goods .content
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.goods .content .goodsBx
+{
+    width: 50%;
+    padding: 20px;
+}
+.goods .content .goodsBx p
+{
+    color: #ffffff;
+    text-align: center;
+}
+.goods .content .goodsBx img
 {
     max-width: 100%;
 }
@@ -366,6 +396,11 @@ header.sticky ul li a
         margin: 10px;
     }
     .work .content .workBx
+    {
+        width: 100%;
+        padding: 10px;
+    }
+    .goods .content .goodsBx
     {
         width: 100%;
         padding: 10px;
