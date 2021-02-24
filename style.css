@@ -22,19 +22,19 @@ section
     justify-content: space-between;
     align-items: center;
 }
-.banner h2
+.banner h1
 {
     font-size: 3em;
     color: #ffffff;
     font-weight: 500;
     line-height: 1.5em;
 }
-.banner h2 span
+.banner h1 span
 {
     font-size: 1.5em;
     font-weight: 700;
 }
-.banner h3
+.banner h2
 {
     font-size: 1.5em;
     color: #ffffff;

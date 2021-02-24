@@ -23,3 +23,4 @@ sr.reveal(` .servicesBx,
             .footer__link, .social-list__link`, {
     interval: 200
 })
+
