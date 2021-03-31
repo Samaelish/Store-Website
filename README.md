@@ -5,4 +5,4 @@
 ![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
 ![Website Pic](https://i.imgur.com/OZwcrcn.png)
-# [Смотреть демо на Netlify](https://wonderful-haibt-1e0f37.netlify.app/)
+# [Смотреть демо на Netlify](https://serene-goldwasser-0a4035.netlify.app/)
